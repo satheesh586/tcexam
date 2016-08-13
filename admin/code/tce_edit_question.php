@@ -77,6 +77,16 @@ if(!isset($_REQUEST['question_enabled']) OR (empty($_REQUEST['question_enabled']
 } else {
 	$question_enabled = F_getBoolean($_REQUEST['question_enabled']);
 }
+if(!isset($_REQUEST['question_score_right']) OR (empty($_REQUEST['question_score_right']))) {
+    $question_score_right = 1;
+} else {
+    $question_score_right = floatval($_REQUEST['question_score_right']);
+}
+if(!isset($_REQUEST['question_score_wrong']) OR (empty($_REQUEST['question_score_wrong']))) {
+    $question_score_wrong = 0.33;
+} else {
+    $question_score_wrong = floatval($_REQUEST['question_score_wrong']);
+}
 if (isset($_REQUEST['changemodule']) AND ($_REQUEST['changemodule'] > 0)) {
 	$changemodule = 1;
 } elseif (isset($_REQUEST['selectmodule'])) {
@@ -191,6 +201,8 @@ switch($menu_mode) {
 			echo '<input type="hidden" name="question_subject_id" id="question_subject_id" value="'.$question_subject_id.'" />'.K_NEWLINE;
 			echo '<input type="hidden" name="question_description" id="question_description" value="'.$question_description.'" />'.K_NEWLINE;
 			echo '<input type="hidden" name="question_explanation" id="question_explanation" value="'.$question_explanation.'" />'.K_NEWLINE;
+			echo '<input type="hidden" name="question_score_right" id="question_score_right" value="'.$question_score_right.'" />'.K_NEWLINE;
+			echo '<input type="hidden" name="question_score_wrong" id="question_score_wrong" value="'.$question_score_wrong.'" />'.K_NEWLINE;
 			F_submit_button('forcedelete', $l['w_delete'], $l['h_delete']);
 			F_submit_button('cancel', $l['w_cancel'], $l['h_cancel']);
 			echo '</div>'.K_NEWLINE;
@@ -366,6 +378,8 @@ switch($menu_mode) {
 				question_position='.F_zero_to_null($question_position).',
 				question_timer=\''.$question_timer.'\',
 				question_fullscreen=\''.intval($question_fullscreen).'\',
+				question_score_right=\''.floatval($question_score_right).'\',
+				question_score_wrong=\''.floatval($question_score_wrong).'\',
 				question_inline_answers=\''.intval($question_inline_answers).'\',
 				question_auto_next=\''.intval($question_auto_next).'\'
 				WHERE question_id='.$question_id.'';
@@ -426,7 +440,9 @@ switch($menu_mode) {
 				question_timer,
 				question_fullscreen,
 				question_inline_answers,
-				question_auto_next
+				question_auto_next,
+				question_score_right,
+				question_score_wrong
 				) VALUES (
 				'.$question_subject_id.',
 				\''.F_escape_sql($db, $question_description).'\',
@@ -438,7 +454,9 @@ switch($menu_mode) {
 				\''.$question_timer.'\',
 				\''.intval($question_fullscreen).'\',
 				\''.intval($question_inline_answers).'\',
-				\''.intval($question_auto_next).'\'
+				\''.intval($question_auto_next).'\',
+				\''.floatval($question_score_right).'\',
+				\''.floatval($question_score_wrong).'\'
 				)';
 			if(!$r = F_db_query($sql, $db)) {
 				F_display_db_error(false);
@@ -465,6 +483,8 @@ switch($menu_mode) {
 		$question_fullscreen = false;
 		$question_inline_answers = false;
 		$question_auto_next = false;
+        $question_score_right = 1;
+        $question_score_wrong = 0.33;
 		break;
 	}
 
@@ -517,6 +537,8 @@ if($formstatus) {
 			$question_fullscreen = false;
 			$question_inline_answers = false;
 			$question_auto_next = false;
+            $question_score_right = 1;
+            $question_score_wrong = 0.33;
 		} else {
 			$sql = 'SELECT *
 				FROM '.K_TABLE_QUESTIONS.'
@@ -533,6 +555,8 @@ if($formstatus) {
 					$question_enabled = F_getBoolean($m['question_enabled']);
 					$question_position = $m['question_position'];
 					$question_timer = $m['question_timer'];
+                    $question_score_right = $m['question_score_right'];
+                    $question_score_wrong = $m['question_score_wrong'];
 					$question_fullscreen = F_getBoolean($m['question_fullscreen']);
 					$question_inline_answers = F_getBoolean($m['question_inline_answers']);
 					$question_auto_next = F_getBoolean($m['question_auto_next']);
@@ -740,6 +764,7 @@ if (K_ENABLE_QUESTION_EXPLANATION) {
 	echo '</div>'.K_NEWLINE;
 }
 
+//TODO Add answers here
 // question type
 echo '<div class="row">'.K_NEWLINE;
 echo '<span class="label">&nbsp;</span>'.K_NEWLINE;
@@ -780,6 +805,9 @@ for ($i = 0; $i <= K_QUESTION_DIFFICULTY_LEVELS; ++$i) {
 	$items[$i] = $i;
 }
 echo getFormRowSelectBox('question_difficulty', $l['w_question_difficulty'], $l['h_question_difficulty'], '', $question_difficulty, $items, '');
+//question score
+echo getFormRowTextInput('question_score_right', 'question_score_right', '', '', $question_score_right, '', 20, false, false, false, '');
+echo getFormRowTextInput('question_score_wrong', 'question_score_wrong', '', '', $question_score_wrong, '', 20, false, false, false, '');
 
 // question position
 echo '<div class="row">'.K_NEWLINE;

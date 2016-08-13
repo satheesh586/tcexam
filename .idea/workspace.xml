@@ -21,134 +21,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tce_edit_answer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_answer.php">
+      <file leaf-file-name="tce_edit_subject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_subject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="668" column="41" selection-start-line="668" selection-start-column="24" selection-end-line="668" selection-end-column="41" />
+            <state relative-caret-position="-8">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
-                <marker date="1469604364548" expanded="true" signature="4334:4588" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
-                <marker date="1469604364548" expanded="true" signature="7009:7107" ph="SELECT answe... ${K_TABLE_ANSWERS}" />
-                <marker date="1469604364548" expanded="true" signature="7309:7372" ph="DELETE FROM " />
-                <marker date="1469604364548" expanded="true" signature="8560:8658" ph="SELECT answe... ${K_TABLE_ANSWERS}" />
-                <marker date="1469604364548" expanded="true" signature="14163:14663" ph="INSERT INTO ${K_TABLE_ANSWERS}... " />
-                <marker date="1469604364548" expanded="true" signature="16053:16164" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="16896:16980" ph="SELECT * FRO... ${K_TABLE_ANSWERS}" />
-                <marker date="1469604364548" expanded="true" signature="17955:17959" ph="&lt;" />
-                <marker date="1469604364548" expanded="true" signature="19733:19739" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="21162:21168" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="21968:22113" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="22856:22862" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="23583:23741" ph="SELECT * FRO... ${K_TABLE_ANSWERS}" />
-                <marker date="1469604364548" expanded="true" signature="24501:24507" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="25376:25401" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="26647:26653" ph="→" />
-                <marker date="1469604364548" expanded="true" signature="27039:27052" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="27676:27714" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="29097:29103" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="29985:29991" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="30537:30562" ph="..." />
+                <marker date="1469604364548" expanded="true" signature="2517:2608" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+                <marker date="1469604364548" expanded="true" signature="4616:4682" ph="DELETE FROM " />
+                <marker date="1469604364548" expanded="true" signature="7184:7554" ph="INSERT INTO ${K_TABLE_SUBJECTS}... " />
+                <marker date="1469604364548" expanded="true" signature="9212:9216" ph="&lt;" />
+                <marker date="1469604364548" expanded="true" signature="10998:11004" ph=" " />
+                <marker date="1469604364548" expanded="true" signature="12342:12348" ph=" " />
+                <marker date="1469604364548" expanded="true" signature="13398:13423" ph="..." />
+                <marker date="1469604364548" expanded="true" signature="14239:14264" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tce_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/config/tce_config.php">
+      <file leaf-file-name="tce_functions_general.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_general.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tce_db_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/config/tce_db_config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tce_functions_test_stats.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_test_stats.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="135" column="59" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+            <state relative-caret-position="-8">
+              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
               <folding>
-                <marker date="1469604364640" expanded="true" signature="2273:2738" ph="SELECT SUM(t... ${K_TABLE_TEST_USER}" />
-                <marker date="1469604364640" expanded="true" signature="7804:7906" ph="SELECT testu... ${$sqltot}" />
-                <marker date="1469604364640" expanded="true" signature="29711:29736" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="31136:31161" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="31488:31494" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="32382:32407" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="32771:32777" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="33043:33049" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="34081:34106" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="34147:34172" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="34585:34591" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="34866:34872" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="35949:35974" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="36017:36042" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="36116:36141" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="36561:36567" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="36851:36857" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="38019:38044" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="38120:38145" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="38222:38247" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="38810:38816" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="38871:38877" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="39326:39332" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="39387:39393" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="40685:40691" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="43308:43326" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="43491:43509" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="44662:44668" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="44782:44788" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="44907:44913" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="45038:45044" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="45166:45172" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="45290:45315" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="45369:45394" ph="..." />
-                <marker date="1469604364640" expanded="true" signature="45764:45770" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="47940:47946" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="48493:48776" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364640" expanded="true" signature="50519:50525" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="50652:50835" ph="SELECT * FRO... ${K_TABLE_LOG_ANSWER}" />
-                <marker date="1469604364640" expanded="true" signature="51880:51886" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="53495:53501" ph=" " />
-                <marker date="1469604364640" expanded="true" signature="54975:55292" ph="SELECT testu... ${K_TABLE_TESTS_LOGS}" />
-                <marker date="1469604364640" expanded="true" signature="64719:64919" ph="SELECT test_... ${K_TABLE_TESTS}" />
-                <marker date="1469604364640" expanded="true" signature="64775:64900" ph="SELECT DISTI... ${K_TABLE_TEST_USER}" />
+                <marker date="1469604364640" expanded="true" signature="1025:1081" ph="SELECT COUNT... ${$dbtable}" />
+                <marker date="1469604364640" expanded="true" signature="2951:3000" ph="SELECT * FRO... ${$table}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Db.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shared/cas/source/CAS/PGTStorage/Db.php">
+      <file leaf-file-name="tce_general_constants.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/config/tce_general_constants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="263" column="5" selection-start-line="263" selection-start-column="5" selection-end-line="263" selection-end-column="5" />
-              <folding>
-                <marker date="1469604364640" expanded="true" signature="7744:7866" ph="CREATE TABLE... ${$this-&gt;_getTable()}" />
-                <marker date="1469604364640" expanded="true" signature="8125:8214" ph="INSERT INTO ${$this-&gt;_getTable()}... " />
-                <marker date="1469604364640" expanded="true" signature="8541:8608" ph="SELECT pgt F... ${$this-&gt;_getTable()}" />
-                <marker date="1469604364640" expanded="true" signature="8865:8928" ph="DELETE FROM " />
-              </folding>
+            <state relative-caret-position="-8">
+              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tce_class_mailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/code/tce_class_mailer.php">
+      <file leaf-file-name="tce_edit_question.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="158">
+              <caret line="806" column="10" selection-start-line="806" selection-start-column="10" selection-end-line="806" selection-end-column="10" />
+              <folding>
+                <marker date="1471059850622" expanded="true" signature="5087:5268" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+                <marker date="1471059850622" expanded="true" signature="7968:8074" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+                <marker date="1471059850622" expanded="true" signature="8282:8351" ph="DELETE FROM " />
+                <marker date="1471059850622" expanded="true" signature="9558:9664" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+                <marker date="1471059850622" expanded="true" signature="15428:16323" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
+                <marker date="1471059850622" expanded="true" signature="18306:18396" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+                <marker date="1471059850622" expanded="true" signature="19883:19887" ph="&lt;" />
+                <marker date="1471059850622" expanded="true" signature="21668:21674" ph=" " />
+                <marker date="1471059850622" expanded="true" signature="23068:23074" ph=" " />
+                <marker date="1471059850622" expanded="true" signature="23851:23996" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+                <marker date="1471059850622" expanded="true" signature="24732:24738" ph=" " />
+                <marker date="1471059850622" expanded="true" signature="25656:25681" ph="..." />
+                <marker date="1471059850622" expanded="true" signature="26959:26965" ph="→" />
+                <marker date="1471059850622" expanded="true" signature="27351:27364" ph="..." />
+                <marker date="1471059850622" expanded="true" signature="27992:28030" ph="..." />
+                <marker date="1471059850622" expanded="true" signature="28716:28722" ph=" " />
+                <marker date="1471059850622" expanded="true" signature="31307:31313" ph=" " />
+                <marker date="1471059850622" expanded="true" signature="32645:32670" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +95,8 @@
       <file leaf-file-name="tce_functions_questions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/code/tce_functions_questions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="236" column="43" selection-start-line="236" selection-start-column="43" selection-end-line="236" selection-end-column="58" />
+            <state relative-caret-position="456">
+              <caret line="201" column="36" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
               <folding>
                 <marker date="1471020886057" expanded="true" signature="1624:1724" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
                 <marker date="1471020886057" expanded="true" signature="2283:2367" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
@@ -171,30 +110,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tce_edit_question.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_question.php">
+      <file leaf-file-name="tce_functions_auth_sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_auth_sql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="679" column="9" selection-start-line="679" selection-start-column="9" selection-end-line="679" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding>
-                <marker date="1469604364548" expanded="true" signature="4666:4847" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
-                <marker date="1469604364548" expanded="true" signature="7281:7387" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="7595:7664" ph="DELETE FROM " />
-                <marker date="1469604364548" expanded="true" signature="8871:8977" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="14609:15362" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
-                <marker date="1469604364548" expanded="true" signature="17191:17281" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="18624:18628" ph="&lt;" />
-                <marker date="1469604364548" expanded="true" signature="20409:20415" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="21809:21815" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="22592:22737" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-                <marker date="1469604364548" expanded="true" signature="23473:23479" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="24397:24422" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="25700:25706" ph="→" />
-                <marker date="1469604364548" expanded="true" signature="26092:26105" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="26733:26771" ph="..." />
-                <marker date="1469604364548" expanded="true" signature="27433:27439" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="29731:29737" ph=" " />
-                <marker date="1469604364548" expanded="true" signature="31069:31094" ph="..." />
+                <marker date="1469604364640" expanded="true" signature="1077:1111" ph="SELECT * FRO... ${K_TABLE_MODULES}" />
+                <marker date="1469604364640" expanded="true" signature="2191:2246" ph="SELECT * FRO... ${K_TABLE_MODULES}" />
+                <marker date="1469604364640" expanded="true" signature="2922:2954" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+                <marker date="1469604364640" expanded="true" signature="3461:3603" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+                <marker date="1469604364640" expanded="true" signature="3519:3599" ph="SELECT testu... ${K_TABLE_TEST_USER}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tce_functions_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="209" column="16" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+              <folding>
+                <marker date="1469604364640" expanded="true" signature="16333:16339" ph=" " />
+                <marker date="1469604364640" expanded="true" signature="16481:16517" ph="..." />
+                <marker date="1469604364640" expanded="true" signature="16519:16525" ph=" " />
+                <marker date="1469604364640" expanded="true" signature="16678:16696" ph="..." />
+                <marker date="1469604364640" expanded="true" signature="16978:17010" ph="..." />
+                <marker date="1469604364640" expanded="true" signature="17438:17444" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tce_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/config/tce_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="290" column="27" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tce_tmx.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/code/tce_tmx.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tce_edit_test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="1172" column="17" selection-start-line="1172" selection-start-column="17" selection-end-line="1172" selection-end-column="17" />
+              <folding>
+                <marker date="1469604364548" expanded="true" signature="8460:8530" ph="DELETE FROM " />
+                <marker date="1469604364548" expanded="true" signature="10597:10656" ph="SELECT COUNT... ${K_TABLE_QUESTIONS}" />
+                <marker date="1469604364548" expanded="true" signature="12603:12667" ph="SELECT * FRO... ${$sqlq}" />
+                <marker date="1469604364548" expanded="true" signature="13120:13443" ph="INSERT INTO ${K_TABLE_TEST_SUBJSET}... " />
+                <marker date="1469604364548" expanded="true" signature="13698:13871" ph="INSERT INTO ${K_TABLE_SUBJECT_SET}... " />
+                <marker date="1469604364548" expanded="true" signature="14845:14902" ph="DELETE FROM " />
+                <marker date="1469604364548" expanded="true" signature="18130:18204" ph="DELETE FROM " />
+                <marker date="1469604364548" expanded="true" signature="18397:18559" ph="INSERT INTO ${K_TABLE_TEST_GROUPS}... " />
+                <marker date="1469604364548" expanded="true" signature="18704:18780" ph="DELETE FROM " />
+                <marker date="1469604364548" expanded="true" signature="18975:19135" ph="INSERT INTO ${K_TABLE_TEST_SSLCERTS}... " />
+                <marker date="1469604364548" expanded="true" signature="19783:21691" ph="INSERT INTO ${K_TABLE_TESTS}... " />
+                <marker date="1469604364548" expanded="true" signature="21963:22125" ph="INSERT INTO ${K_TABLE_TEST_GROUPS}... " />
+                <marker date="1469604364548" expanded="true" signature="22339:22499" ph="INSERT INTO ${K_TABLE_TEST_SSLCERTS}... " />
+                <marker date="1469604364548" expanded="true" signature="22721:22812" ph="SELECT * FRO... ${K_TABLE_TEST_SUBJSET}" />
+                <marker date="1469604364548" expanded="true" signature="22937:23299" ph="INSERT INTO ${K_TABLE_TEST_SUBJSET}... " />
+                <marker date="1469604364548" expanded="true" signature="23483:23586" ph="SELECT * FRO... ${K_TABLE_SUBJECT_SET}" />
+                <marker date="1469604364548" expanded="true" signature="23696:23900" ph="INSERT INTO ${K_TABLE_SUBJECT_SET}... " />
+                <marker date="1469604364548" expanded="true" signature="26299:26365" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+                <marker date="1469604364548" expanded="true" signature="32486:32538" ph="SELECT * FRO... ${K_TABLE_GROUPS}" />
+                <marker date="1469604364548" expanded="true" signature="33354:33406" ph="SELECT * FRO... ${K_TABLE_SSLCERTS}" />
+                <marker date="1469604364548" expanded="true" signature="35665:35684" ph="..." />
+                <marker date="1469604364548" expanded="true" signature="37244:37263" ph="..." />
+                <marker date="1469604364548" expanded="true" signature="39300:39325" ph="..." />
+                <marker date="1469604364548" expanded="true" signature="40766:40772" ph=" " />
+                <marker date="1469604364548" expanded="true" signature="42038:42267" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+                <marker date="1469604364548" expanded="true" signature="42548:42943" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+                <marker date="1469604364548" expanded="true" signature="45834:45840" ph=" " />
+                <marker date="1469604364548" expanded="true" signature="46193:46294" ph="SELECT * FRO... ${K_TABLE_TEST_SUBJSET}" />
+                <marker date="1469604364548" expanded="true" signature="46430:46634" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+                <marker date="1469604364548" expanded="true" signature="49796:49802" ph=" " />
               </folding>
             </state>
           </provider>
@@ -206,6 +210,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/admin/code/tce_functions_questions.php" />
+        <option value="$PROJECT_DIR$/admin/code/tce_edit_question.php" />
       </list>
     </option>
   </component>
@@ -266,6 +271,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcexam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcexam" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcexam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcexam" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -274,6 +311,8 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -334,22 +373,22 @@
       <option name="presentableId" value="Default" />
       <updated>1471002837177</updated>
       <workItem from="1471002839007" duration="1868000" />
-      <workItem from="1471018452038" duration="3471000" />
+      <workItem from="1471018452038" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5339000" />
+    <option name="totallyTimeSpent" value="12530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23059185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -380,32 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/code/tce_xhtml_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/dir.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/_blank.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/file.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -456,24 +469,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469604364548" expanded="true" signature="4666:4847" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
-            <marker date="1469604364548" expanded="true" signature="7281:7387" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="7595:7664" ph="DELETE FROM " />
-            <marker date="1469604364548" expanded="true" signature="8871:8977" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="14609:15362" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
-            <marker date="1469604364548" expanded="true" signature="17191:17281" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="18624:18628" ph="&lt;" />
-            <marker date="1469604364548" expanded="true" signature="20409:20415" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="21809:21815" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="22592:22737" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="23473:23479" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="24397:24422" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="25700:25706" ph="→" />
-            <marker date="1469604364548" expanded="true" signature="26092:26105" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="26733:26771" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="27433:27439" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="29731:29737" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="31069:31094" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="5087:5268" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+            <marker date="1471059850622" expanded="true" signature="7968:8074" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="8282:8351" ph="DELETE FROM " />
+            <marker date="1471059850622" expanded="true" signature="9558:9664" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="15428:16323" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
+            <marker date="1471059850622" expanded="true" signature="18306:18396" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="19883:19887" ph="&lt;" />
+            <marker date="1471059850622" expanded="true" signature="21668:21674" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="23068:23074" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="23851:23996" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="24732:24738" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="25656:25681" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="26959:26965" ph="→" />
+            <marker date="1471059850622" expanded="true" signature="27351:27364" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="27992:28030" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="28716:28722" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="31307:31313" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="32645:32670" ph="..." />
           </folding>
         </state>
       </provider>
@@ -482,33 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3735">
           <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/code/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <marker date="1469604364548" expanded="true" signature="950:1151" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="2583:2599" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="2627:2633" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="2642:2648" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="3299:3315" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="4011:4027" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="4726:4742" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="4934:4996" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="5025:5043" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="5093:5118" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/code/tce_page_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -562,41 +548,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/config/tce_general_constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="679" column="9" selection-start-line="679" selection-start-column="9" selection-end-line="679" selection-end-column="9" />
-          <folding>
-            <marker date="1469604364548" expanded="true" signature="4666:4847" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
-            <marker date="1469604364548" expanded="true" signature="7281:7387" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="7595:7664" ph="DELETE FROM " />
-            <marker date="1469604364548" expanded="true" signature="8871:8977" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="14609:15362" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
-            <marker date="1469604364548" expanded="true" signature="17191:17281" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="18624:18628" ph="&lt;" />
-            <marker date="1469604364548" expanded="true" signature="20409:20415" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="21809:21815" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="22592:22737" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-            <marker date="1469604364548" expanded="true" signature="23473:23479" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="24397:24422" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="25700:25706" ph="→" />
-            <marker date="1469604364548" expanded="true" signature="26092:26105" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="26733:26771" ph="..." />
-            <marker date="1469604364548" expanded="true" signature="27433:27439" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="29731:29737" ph=" " />
-            <marker date="1469604364548" expanded="true" signature="31069:31094" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/code/tce_functions_filemanager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -620,30 +571,6 @@
             <marker date="1469604364548" expanded="true" signature="14737:14800" ph="..." />
             <marker date="1469604364548" expanded="true" signature="15115:15126" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/code/tce_functions_questions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="236" column="43" selection-start-line="236" selection-start-column="43" selection-end-line="236" selection-end-column="58" />
-          <folding>
-            <marker date="1471020886057" expanded="true" signature="1624:1724" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
-            <marker date="1471020886057" expanded="true" signature="2283:2367" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
-            <marker date="1471020886057" expanded="true" signature="3298:3367" ph="DELETE FROM " />
-            <marker date="1471020886057" expanded="true" signature="4409:4504" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
-            <marker date="1471020886057" expanded="true" signature="6009:6781" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
-            <marker date="1471020886057" expanded="true" signature="6988:7072" ph="SELECT * FRO... ${K_TABLE_ANSWERS}" />
-            <marker date="1471020886057" expanded="true" signature="7163:7712" ph="INSERT INTO ${K_TABLE_ANSWERS}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config/tce_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,43 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/code/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shared/code/tce_altauth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
           <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/code/tce_authorization.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1469604364640" expanded="true" signature="1926:2001" ph="SELECT * FRO... ${K_TABLE_SESSIONS}" />
-            <marker date="1469604364640" expanded="true" signature="5535:5620" ph="SELECT * FRO... ${K_TABLE_SESSIONS}" />
-            <marker date="1469604364640" expanded="true" signature="6357:6582" ph="INSERT INTO ${K_TABLE_SESSIONS}... " />
-            <marker date="1469604364640" expanded="true" signature="7355:7459" ph="SELECT cpses... ${K_TABLE_SESSIONS}" />
-            <marker date="1469604364640" expanded="true" signature="7649:7890" ph="INSERT INTO ${K_TABLE_SESSIONS}... " />
-            <marker date="1469604364640" expanded="true" signature="8105:8242" ph="SELECT * FRO... ${K_TABLE_USERS}" />
-            <marker date="1469604364640" expanded="true" signature="9698:9835" ph="SELECT * FRO... ${K_TABLE_USERS}" />
-            <marker date="1469604364640" expanded="true" signature="11013:11987" ph="INSERT INTO ${K_TABLE_USERS}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/code/tce_class_mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -765,14 +659,6 @@
           <folding>
             <marker date="1469604364640" expanded="true" signature="5240:5284" ph="SELECT LAST_... ${$tablename}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/config/tce_db_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,6 +724,330 @@
             <marker date="1469604364640" expanded="true" signature="8125:8214" ph="INSERT INTO ${$this-&gt;_getTable()}... " />
             <marker date="1469604364640" expanded="true" signature="8541:8608" ph="SELECT pgt F... ${$this-&gt;_getTable()}" />
             <marker date="1469604364640" expanded="true" signature="8865:8928" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/log/tce_errors.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config/tce_auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config/tce_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/code/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="555">
+            <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_class_mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/tce_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="186" column="42" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/config/tce_db_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_authorization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <marker date="1469604364640" expanded="true" signature="1926:2001" ph="SELECT * FRO... ${K_TABLE_SESSIONS}" />
+            <marker date="1469604364640" expanded="true" signature="5535:5620" ph="SELECT * FRO... ${K_TABLE_SESSIONS}" />
+            <marker date="1469604364640" expanded="true" signature="6357:6582" ph="INSERT INTO ${K_TABLE_SESSIONS}... " />
+            <marker date="1469604364640" expanded="true" signature="7355:7459" ph="SELECT cpses... ${K_TABLE_SESSIONS}" />
+            <marker date="1469604364640" expanded="true" signature="7649:7890" ph="INSERT INTO ${K_TABLE_SESSIONS}... " />
+            <marker date="1469604364640" expanded="true" signature="8105:8242" ph="SELECT * FRO... ${K_TABLE_USERS}" />
+            <marker date="1469604364640" expanded="true" signature="9698:9835" ph="SELECT * FRO... ${K_TABLE_USERS}" />
+            <marker date="1469604364640" expanded="true" signature="11013:11987" ph="INSERT INTO ${K_TABLE_USERS}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <marker date="1469604364548" expanded="true" signature="950:1151" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="2583:2599" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="2627:2633" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="2642:2648" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="3299:3315" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="4011:4027" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="4726:4742" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="4934:4996" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="5025:5043" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="5093:5118" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_page_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_page_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="397" column="35" selection-start-line="397" selection-start-column="19" selection-end-line="397" selection-end-column="35" />
+          <folding>
+            <marker date="1469604364548" expanded="true" signature="3307:3370" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="6097:6317" ph="INSERT INTO ${K_TABLE_MODULES}... " />
+            <marker date="1469604364548" expanded="true" signature="8720:8726" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="9558:9708" ph="SELECT user_... ${K_TABLE_USERS}" />
+            <marker date="1469604364548" expanded="true" signature="10282:10396" ph="SELECT user_... ${K_TABLE_USERS}" />
+            <marker date="1469604364548" expanded="true" signature="10490:10522" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="11533:11683" ph="SELECT * FRO... ${K_TABLE_GROUPS}" />
+            <marker date="1469604364548" expanded="true" signature="11742:11789" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="12214:12239" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/config/tce_general_constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+          <folding>
+            <marker date="1469604364640" expanded="true" signature="1025:1081" ph="SELECT COUNT... ${$dbtable}" />
+            <marker date="1469604364640" expanded="true" signature="2951:3000" ph="SELECT * FRO... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_subject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <marker date="1469604364548" expanded="true" signature="2517:2608" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+            <marker date="1469604364548" expanded="true" signature="4616:4682" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="7184:7554" ph="INSERT INTO ${K_TABLE_SUBJECTS}... " />
+            <marker date="1469604364548" expanded="true" signature="9212:9216" ph="&lt;" />
+            <marker date="1469604364548" expanded="true" signature="10998:11004" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="12342:12348" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="13398:13423" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="14239:14264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_tmx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/config/tce_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="290" column="27" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="209" column="16" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+          <folding>
+            <marker date="1469604364640" expanded="true" signature="16333:16339" ph=" " />
+            <marker date="1469604364640" expanded="true" signature="16481:16517" ph="..." />
+            <marker date="1469604364640" expanded="true" signature="16519:16525" ph=" " />
+            <marker date="1469604364640" expanded="true" signature="16678:16696" ph="..." />
+            <marker date="1469604364640" expanded="true" signature="16978:17010" ph="..." />
+            <marker date="1469604364640" expanded="true" signature="17438:17444" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/code/tce_functions_auth_sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <marker date="1469604364640" expanded="true" signature="1077:1111" ph="SELECT * FRO... ${K_TABLE_MODULES}" />
+            <marker date="1469604364640" expanded="true" signature="2191:2246" ph="SELECT * FRO... ${K_TABLE_MODULES}" />
+            <marker date="1469604364640" expanded="true" signature="2922:2954" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+            <marker date="1469604364640" expanded="true" signature="3461:3603" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+            <marker date="1469604364640" expanded="true" signature="3519:3599" ph="SELECT testu... ${K_TABLE_TEST_USER}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_functions_questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="201" column="36" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
+          <folding>
+            <marker date="1471020886057" expanded="true" signature="1624:1724" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471020886057" expanded="true" signature="2283:2367" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471020886057" expanded="true" signature="3298:3367" ph="DELETE FROM " />
+            <marker date="1471020886057" expanded="true" signature="4409:4504" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+            <marker date="1471020886057" expanded="true" signature="6009:6781" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
+            <marker date="1471020886057" expanded="true" signature="6988:7072" ph="SELECT * FRO... ${K_TABLE_ANSWERS}" />
+            <marker date="1471020886057" expanded="true" signature="7163:7712" ph="INSERT INTO ${K_TABLE_ANSWERS}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="806" column="10" selection-start-line="806" selection-start-column="10" selection-end-line="806" selection-end-column="10" />
+          <folding>
+            <marker date="1471059850622" expanded="true" signature="5087:5268" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+            <marker date="1471059850622" expanded="true" signature="7968:8074" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="8282:8351" ph="DELETE FROM " />
+            <marker date="1471059850622" expanded="true" signature="9558:9664" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="15428:16323" ph="INSERT INTO ${K_TABLE_QUESTIONS}... " />
+            <marker date="1471059850622" expanded="true" signature="18306:18396" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="19883:19887" ph="&lt;" />
+            <marker date="1471059850622" expanded="true" signature="21668:21674" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="23068:23074" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="23851:23996" ph="SELECT * FRO... ${K_TABLE_QUESTIONS}" />
+            <marker date="1471059850622" expanded="true" signature="24732:24738" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="25656:25681" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="26959:26965" ph="→" />
+            <marker date="1471059850622" expanded="true" signature="27351:27364" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="27992:28030" ph="..." />
+            <marker date="1471059850622" expanded="true" signature="28716:28722" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="31307:31313" ph=" " />
+            <marker date="1471059850622" expanded="true" signature="32645:32670" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/code/tce_edit_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="1172" column="17" selection-start-line="1172" selection-start-column="17" selection-end-line="1172" selection-end-column="17" />
+          <folding>
+            <marker date="1469604364548" expanded="true" signature="8460:8530" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="10597:10656" ph="SELECT COUNT... ${K_TABLE_QUESTIONS}" />
+            <marker date="1469604364548" expanded="true" signature="12603:12667" ph="SELECT * FRO... ${$sqlq}" />
+            <marker date="1469604364548" expanded="true" signature="13120:13443" ph="INSERT INTO ${K_TABLE_TEST_SUBJSET}... " />
+            <marker date="1469604364548" expanded="true" signature="13698:13871" ph="INSERT INTO ${K_TABLE_SUBJECT_SET}... " />
+            <marker date="1469604364548" expanded="true" signature="14845:14902" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="18130:18204" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="18397:18559" ph="INSERT INTO ${K_TABLE_TEST_GROUPS}... " />
+            <marker date="1469604364548" expanded="true" signature="18704:18780" ph="DELETE FROM " />
+            <marker date="1469604364548" expanded="true" signature="18975:19135" ph="INSERT INTO ${K_TABLE_TEST_SSLCERTS}... " />
+            <marker date="1469604364548" expanded="true" signature="19783:21691" ph="INSERT INTO ${K_TABLE_TESTS}... " />
+            <marker date="1469604364548" expanded="true" signature="21963:22125" ph="INSERT INTO ${K_TABLE_TEST_GROUPS}... " />
+            <marker date="1469604364548" expanded="true" signature="22339:22499" ph="INSERT INTO ${K_TABLE_TEST_SSLCERTS}... " />
+            <marker date="1469604364548" expanded="true" signature="22721:22812" ph="SELECT * FRO... ${K_TABLE_TEST_SUBJSET}" />
+            <marker date="1469604364548" expanded="true" signature="22937:23299" ph="INSERT INTO ${K_TABLE_TEST_SUBJSET}... " />
+            <marker date="1469604364548" expanded="true" signature="23483:23586" ph="SELECT * FRO... ${K_TABLE_SUBJECT_SET}" />
+            <marker date="1469604364548" expanded="true" signature="23696:23900" ph="INSERT INTO ${K_TABLE_SUBJECT_SET}... " />
+            <marker date="1469604364548" expanded="true" signature="26299:26365" ph="SELECT * FRO... ${K_TABLE_TESTS}" />
+            <marker date="1469604364548" expanded="true" signature="32486:32538" ph="SELECT * FRO... ${K_TABLE_GROUPS}" />
+            <marker date="1469604364548" expanded="true" signature="33354:33406" ph="SELECT * FRO... ${K_TABLE_SSLCERTS}" />
+            <marker date="1469604364548" expanded="true" signature="35665:35684" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="37244:37263" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="39300:39325" ph="..." />
+            <marker date="1469604364548" expanded="true" signature="40766:40772" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="42038:42267" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1469604364548" expanded="true" signature="42548:42943" ph="SELECT quest... ${K_TABLE_QUESTIONS}" />
+            <marker date="1469604364548" expanded="true" signature="45834:45840" ph=" " />
+            <marker date="1469604364548" expanded="true" signature="46193:46294" ph="SELECT * FRO... ${K_TABLE_TEST_SUBJSET}" />
+            <marker date="1469604364548" expanded="true" signature="46430:46634" ph="SELECT subje... ${K_TABLE_SUBJECTS}" />
+            <marker date="1469604364548" expanded="true" signature="49796:49802" ph=" " />
           </folding>
         </state>
       </provider>
