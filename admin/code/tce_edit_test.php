@@ -1271,7 +1271,7 @@ if (isset($test_id) AND ($test_id > 0)) {
 			$subjlist .= ' <a href="'.$_SERVER['SCRIPT_NAME'].'?menu_mode=deletesubject&amp;test_id='.$test_id.'&amp;tsubset_id='.$m['tsubset_id'].'" title="'.$l['h_delete'].'" class="deletebutton">'.$l['w_delete'].'</a>';
 			$subjlist .= '</li>'.K_NEWLINE;
 
-			// update test_max_score
+			// update test_max_score //TODO Edit
 			$test_max_score_new += $test_score_right * $m['tsubset_difficulty'] * $m['tsubset_quantity'];
 			if (isset($test_max_score) AND ($test_max_score_new != $test_max_score)) {
 				$test_max_score = $test_max_score_new;
